@@ -1,0 +1,13 @@
+#PBS -N VertexRankingConstr
+#PBS -j oe
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=88:00:00
+#PBS -S /bin/ksh
+
+set -x
+
+cd $PBS_O_WORKDIR
+
+#
+./VertexRankingConstr /var/www/cgi-bin/Datasets/UMLS_2012AA_Level0_Datasets/MRSTY.RRF /var/www/cgi-bin/Datasets/UMLS_2012AA_Level0_onGrid_Forbid_6/vertexCUI.txt /var/www/cgi-bin/Datasets/UMLS_2012AA_Level0_onGrid_Forbid_6/VertexSemanticRankList.txt /var/www/cgi-bin/Datasets/UMLS_2012AA_Level0_onGrid_Forbid_6/VertexRanking.txt
+#

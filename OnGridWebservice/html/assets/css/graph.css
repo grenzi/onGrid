@@ -1,0 +1,22 @@
+
+.node circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.node text {
+  font: 18px sans-serif;
+  pointer-events: none;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.gLink text {
+	font: 10px sans-serif;
+	pointer-events: none;
+  	text-shadow: 1px 1px 0 #fff;
+}

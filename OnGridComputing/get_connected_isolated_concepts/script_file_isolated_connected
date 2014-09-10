@@ -1,0 +1,13 @@
+#PBS -N isocon
+#PBS -j oe
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=88:00:00
+#PBS -S /bin/ksh
+
+set -x
+
+cd $PBS_O_WORKDIR
+
+#
+./isocon ../UMLS_2012AA_Level0_onGrid_Forbid_6/graph_Forbid.gra ../UMLS_2012AA_Level0_onGrid_Forbid_6/vertexCUI.txt ../UMLS_2012AA_Level0_onGrid_Forbid_6/VertexLabelFile.txt VertexIsolatedFile.txt VertexConnectedFile.txt
+#

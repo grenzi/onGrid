@@ -1,0 +1,13 @@
+#PBS -N VSemGenFull
+#PBS -j oe
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=88:00:00
+#PBS -S /bin/ksh
+
+set -x
+
+cd $PBS_O_WORKDIR
+
+#
+./VSemGen ../../Datasets_UMLS2013AA/MRSTY_Full.RRF ../../Datasets_UMLS2013AA/VertexSemanticLabelFile_Full.txt
+#
