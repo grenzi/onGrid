@@ -81,7 +81,7 @@
             <div style="padding-left: 20px;" align="justify">
               <h5>Software version: 2.0 beta</br>
                 Last Update: 3/29/2013</br>
-                UMLS version: 2012AA</br></br>
+                UMLS version: 2012AA (Level 0)</br></br>
                 This version onGrid provides online kDLS query services for the UMLS. It follows the kDLS configuration (k=6) that has been used to perform disease gene prioritization in our publication <a href="http://www.sciencedirect.com/science/article/pii/S1532046411002000" target="_blank">"k-neighborhood Decentralization: A Comprehensive Solution to Index the UMLS for Large Scale Knowledge Discovery"</a>. For details about kDLS, please refer to this publication.</br></br>
                 Please note that since k is configured to be 6, the method only guarantees finding exact distances under 6 hops, or at least one shortest paths under 6 hops, on the underlying graph. This restriction applies to all the services provided in the following. Please refer to the above publication for details on why we set this restriction.	 
               </h5>
